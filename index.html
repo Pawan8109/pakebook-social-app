@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakebook</title>
+
+    <!-- icons with cdn -->
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+</head>
+
+<body>
+    
+    
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <h3>Social <span>Book</span></h3>
+            </div>
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="search for creators">
+            </div>
+            <div class="add-post">
+                <label for="add-post" class="btn btn-primary">Add Post</label>
+                <div class="profile-picture">
+                    <img src="images/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container main-container">
+            <div class="main-left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="images/profile-1.jpg" alt="">
+                    </div>
+                    <div class="profile-handle">
+                        <h4>Pawan</h4>
+                        <p class="text-gry">
+                            @dayi
+                        </p>
+                    </div>
+                </a>
+                <aside>
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span> <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span> <h3>Explore<h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell">
+                            <small class="notfy-counter">7+</small></i>
+                        </span> <h3>Notification</h3>
+                        
+                        <div class="notifications-box">
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Aniket Gupta</b> accepted your friend request
+                                    <small class="text-gry">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Maya Gupta</b> commented on your post
+                                    <small class="text-gry">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Kamlesh Gupta</b> and <b>283 others</b> liked your post
+                                    <small class="text-gry">3 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Lalle Gupta</b> commented on a post you are tagged in
+                                    <small class="text-gry">3 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-6.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Maya Gupta</b> commented on a post you are tagged in
+                                    <small class="text-gry">4 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-7.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Maya Gupta</b> commented on your post
+                                    <small class="text-gry">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-envelop-alt"><small class="notfy-counter">3</small></i></span> <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span> <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-chart-line"></i></span> <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-palette"></i></span> <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                         <span><i class="uil uil-setting"></i></span> <h3>Settings</h3>
+                    </a>  
+                <label for="add-post" class="btn btn-primary btn-lg">Create A Post</label>
+
+                </aside>
+                <!-- <label for="create-post" class="btn btn-primary">Create Post</label> -->
+
+            </div>
+            <!-- <div class="main-middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-9.jpg" alt="">
+                        </div>
+                        <p class="name">Lalle</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-10.jpg" alt="">
+                        </div>
+                        <p class="name">Lalla</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">lallu</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-12.jpg" alt="">
+                        </div>
+                        <p class="name">pallu</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">sallu</p>
+                    </div>
+               </div>
+               <form class="create-post">
+                     <div class="profile-photo">
+                        <img src="images/profile-1.jpg" alt="">
+                     </div>
+                     <input type="text" placeholder="whats in your mind, lalle?" id="create-post">
+                     <input type="submit" value="Post" class="btn btn-primary">
+               </form>
+               <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-13.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lalle</h3>
+                                    <small>Shyamnagar, Satna</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-1.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Pawan Gupta</b> and <b>220 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p>mai aaj <b>shaymnagar</b> aaya bahut badhiya laga</p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 25 comments
+                        </div>
+
+                    </div>
+                    <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="images/profile-12.jpg" alt="">
+                            </div>
+                            <div class="ingo">
+                                <h3>Lalle</h3>
+                                <small>Shyamnagar, Satna</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+                    <div class="photo">
+                        <img src="images/feed-1.jpg" alt="">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="images/profile-10.jpg" alt=""></span>
+                        <span><img src="images/profile-4.jpg" alt=""></span>
+                        <span><img src="images/profile-15.jpg" alt=""></span>
+                        <p>Liked by <b>Pawan Gupta</b> and <b>220 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p>mai aaj <b>shaymnagar</b> aaya bahut badhiya laga</p>
+                    </div>
+
+                    <div class="comments text-muted">
+                        View all 25 comments
+                    </div>
+
+                    </div>
+                    <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="images/profile-9.jpg" alt="">
+                        </div>
+                        <div class="ingo">
+                            <h3>Lalle</h3>
+                            <small>Shyamnagar, Satna</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="uil uil-ellipsis-h"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="images/feed-1.jpg" alt="">
+                </div>
+
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span><i class="uil uil-heart"></i></span>
+                        <span><i class="uil uil-comment-dots"></i></span>
+                        <span><i class="uil uil-share-alt"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="uil uil-bookmark-full"></i></span>
+                    </div>
+                </div>
+
+                <div class="liked-by">
+                    <span><img src="images/profile-10.jpg" alt=""></span>
+                    <span><img src="images/profile-4.jpg" alt=""></span>
+                    <span><img src="images/profile-15.jpg" alt=""></span>
+                    <p>Liked by <b>Pawan Gupta</b> and <b>220 others</b></p>
+                </div>
+
+                <div class="caption">
+                    <p>mai aaj <b>shaymnagar</b> aaya bahut badhiya laga</p>
+                </div>
+
+                <div class="comments text-muted">
+                    View all 25 comments
+                </div>
+
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-19.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lalle</h3>
+                                    <small>Shyamnagar, Satna</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-1.jpg" alt="">
+                        </div>
+            
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+            
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Pawan Gupta</b> and <b>220 others</b></p>
+                        </div>
+            
+                        <div class="caption">
+                            <p>mai aaj <b>shaymnagar</b> aaya bahut badhiya laga</p>
+                        </div>
+            
+                        <div class="comments text-muted">
+                            View all 25 comments
+                        </div>
+            
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lalle</h3>
+                                    <small>Shyamnagar, Satna</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-1.jpg" alt="">
+                        </div>
+                
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Pawan Gupta</b> and <b>220 others</b></p>
+                        </div>
+                
+                        <div class="caption">
+                            <p>mai aaj <b>shaymnagar</b> aaya bahut badhiya laga</p>
+                        </div>
+                
+                        <div class="comments text-muted">
+                            View all 25 comments
+                        </div>
+                
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-6.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lalle</h3>
+                                    <small>Shyamnagar, Satna</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-1.jpg" alt="">
+                        </div>
+                    
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                    
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Pawan Gupta</b> and <b>220 others</b></p>
+                        </div>
+                    
+                        <div class="caption">
+                            <p>mai aaj <b>shaymnagar</b> aaya bahut badhiya laga</p>
+                        </div>
+                    
+                        <div class="comments text-muted">
+                            View all 25 comments
+                        </div>
+                    
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-7.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lalle</h3>
+                                    <small>Shyamnagar, Satna</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-1.jpg" alt="">
+                        </div>
+                    
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                    
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Pawan Gupta</b> and <b>220 others</b></p>
+                        </div>
+                    
+                        <div class="caption">
+                            <p>mai aaj <b>shaymnagar</b> aaya bahut badhiya laga</p>
+                        </div>
+                    
+                        <div class="comments text-muted">
+                            View all 25 comments
+                        </div>
+                    
+                    </div>
+
+               </div>
+
+            </div> -->
+            <!-- <div class="main-right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="search messages" id="message-search">
+                    </div>
+
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>Genaral</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-17.jpg" alt="" class="src">
+                        </div>
+                        <div class="message-body">
+                            <h5>Lalle</h5>
+                            <p class="text-muted">utho bhai jaldi</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-17.jpg" alt="" class="src">
+                        </div>
+                        <div class="message-body">
+                            <h5>Lalle</h5>
+                            <p class="text-muted">utho bhai jaldi</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-17.jpg" alt="" class="src">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Lalle</h5>
+                            <p class="text-muted">utho bhai jaldi</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-17.jpg" alt="" class="src">
+                        </div>
+                        <div class="message-body">
+                            <h5>Lalle</h5>
+                            <p class="text-muted">utho bhai jaldi</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-17.jpg" alt="" class="src">
+                        </div>
+                        <div class="message-body">
+                            <h5>Lalle</h5>
+                            <p class="text-muted">utho bhai jaldi</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-17.jpg" alt="" class="src">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Lalle</h5>
+                            <p class="text-muted">utho bhai jaldi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-request">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-13.jpg" alt="" class="">
+                            </div>
+                            <div>
+                                <h5>Pappu</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn btn-primary">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-13.jpg" alt="" class="">
+                            </div>
+                            <div>
+                                <h5>Pappu</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn btn-primary">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-13.jpg" alt="" class="">
+                            </div>
+                            <div>
+                                <h5>Pappu</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn btn-primary">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+    </main>
+
+    <!-- <div class="customize-theme">
+        <div class="card">
+            <h2>customize your view</h2>
+            <p class="text-muted">manage your font size,color, and background.</p>
+
+            <div class="font-size">
+                <h4>font size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <div class="color">
+                <h4>color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+
+            </div>
+            <div class="background">
+                <h4>background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-1">Light out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+
+    <script src="script.js"></script>
+</body>
